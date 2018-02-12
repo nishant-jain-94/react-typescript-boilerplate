@@ -1,4 +1,4 @@
-import * as React from 'react'
+import * as React from 'react';
 
 interface HelloProps {
   name: String;
@@ -6,6 +6,6 @@ interface HelloProps {
 
 export default class Hello extends React.Component<HelloProps, {}> {
   render() {
-    return <div>Hey, I am {this.props.name}</div>
+    return <h1>Hey, I am {this.props.name}</h1>;
   }
 }

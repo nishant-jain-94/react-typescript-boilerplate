@@ -3,6 +3,6 @@ import * as ReactDOM from 'react-dom';
 import Hello from '../Hello/Hello';
 
 ReactDOM.render(
-  <Hello name="Nishant" />,
-  document.getElementById('root')
+  <Hello name="React Typescript Boilerplate" />,
+  document.getElementById('root'),
 );
